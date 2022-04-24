@@ -1,0 +1,142 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin-left: 0%;
+    overflow: hidden;
+    max-height: 150px;
+    background-color: #292a2e77;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+
+.container {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    
+}
+
+header {
+    position:fixed;
+    height: 100px;
+    width: inherit;
+    text-align: center;
+    justify-content: center;
+    margin-top: 0%;
+    
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav a:hover {
+    border-radius: 5px;
+    background-color: #ff8f077f;
+}
+
+main {
+    position: absolute;
+    top: 20px;
+    left: 2px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#name {
+    position: absolute;
+    top: 60px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 500px;
+    text-transform: capitalize;
+    color: #814a06;
+    margin-right: 50%;
+}
+
+#motto {
+    position: relative;
+    left: 45%;
+    font-size: 50px;
+    color:#814a06;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 50%;
+}
+
+p {
+    position: relative;
+    left: 45%;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    padding-left: 7%;
+    padding-right: 7%;
+    margin-left: 50%;
+}
+
+a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-decoration: none; */
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#reservation {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    position: relative;
+    left: 45%;
+    margin-left: 50%;
+}
+
+footer {
+   
+    position:absolute;
+    top: 30%;
+    height: 100px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.728);
+    color: #fff;
+    margin-top: 42%;
+    align-items: center;
+}
+
+.footer-content {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-right: 45%;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
